@@ -1,7 +1,7 @@
 .table,td{
     border: 1px black solid;
     width: 500px;
-    height: 100px;
+    height: 60px;
     
 
 }
@@ -34,8 +34,8 @@
 #c11{
     border: 1px black solid;
     width: 500px;
-    height: 100px;
-    background-color: red;
+    height: 60px;
+    background-color: #93aead;
     
 
 }
@@ -43,26 +43,26 @@
     border: 1px black solid;
     width: 50px;
     height: 50px;
-background-color: blue;}
+background-color:blue;}
     #c13{
         border: 1px black solid;
         width: 50px;
-        height: 50px;background-color: red;}
+        height: 50px;background-color:#93aead;}
         #c14{
             border: 1px black solid;
             width: 50px;
             height: 50px;background-color: blue;}
-            #c21{background-color: red;}
+            #c21{background-color:#93aead;}
             #c22{background-color: blue;}
-            #c23{background-color: red;}
+            #c23{background-color:#93aead;}
             #c24{background-color: blue;}
-            #c31{background-color: red;}
+            #c31{background-color: #93aead;}
             #c32{background-color: blue;}
-            #c33{background-color: red;}
+            #c33{background-color: #93aead;}
             #c34{background-color: blue;}
-            #c41{background-color: red;}
+            #c41{background-color: #93aead;}
             #c42{background-color: blue;}
-            #c43{background-color: red;}
+            #c43{background-color: #93aead;}
             #c44{background-color: blue;}
                         
 
@@ -76,19 +76,27 @@ background-color: blue;}
         .left{float:left}
         .right{float: right;}
 
-#c11:hover{background-color: darkred;}
-#c12:hover        {background-color: darkblue;}
-#c13:hover{background-color: darkred;}
-#c14:hover        {background-color: darkblue;}
-#c21:hover{background-color: darkred;}
-#c22:hover        {background-color: darkblue;}
-#c23:hover{background-color: darkred;}
-#c24:hover        {background-color: darkblue;}
-#c31:hover{background-color: darkred;}
+#c11:hover{background-color: darkred;
+;z-index:-3 ;visibility: hidden
+
+;}
+#c12:hover        {background-color: darkblue;visibility:hidden;z-index:-3}
+#c13:hover{background-color: darkred;visibility:hidden;z-index:-3}
+#c14:hover        {background-color: darkblue;visibility:hidden;z-index:-3}
+#c21:hover{background-color: darkred;visibility:hidden;z-index:-3}
+#c22:hover        {background-color: darkblue;visibility:hidden;z-index:-3}
+#c23:hover{background-color: darkred;visibility:hidden;z-index:-3}
+#c24:hover        {background-color: darkblue;visibility:hidden;z-index:-3}
+#c31:hover{background-color: darkred;visibility:hidden;z-index:-3}
 #c32:hover        {background-color: darkblue;}
-#c33:hover{background-color: darkred;}
+#c33:hover{background-color: darkred;visibility:hidden;z-index:-3}
 #c34:hover        {background-color: darkblue;}
-#c41:hover{background-color: darkred;}
-#c42:hover        {background-color: darkblue;}
-#c43:hover{background-color: darkred;}
-#c44:hover        {background-color: darkblue;}
+#c41:hover{background-color: darkred;visibility:hidden;z-index:-3}
+#c42:hover        {background-color: darkblue;visibility:hidden;z-index:-3}
+#c43:hover{background-color: darkred;visibility:hidden;z-index:-3}
+#c44:hover        {background-color: darkblue;visibility:hidden;z-index:-3}
+p{
+    z-index: -1;
+    font-size: 50px;
+    
+}
