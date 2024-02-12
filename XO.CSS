@@ -1,0 +1,94 @@
+.table,td{
+    border: 1px black solid;
+    width: 1000px;
+    height: 150px;
+    
+
+}
+.row1{
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+    
+    
+
+
+}
+.row2{
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+
+}
+.row3{
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+}
+.row4{
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+
+}
+#c11{
+    border: 1px black solid;
+    width: 1000px;
+    height: 150px;
+    background-color: red;
+    
+
+}
+#c12{
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+background-color: blue;}
+    #c13{
+        border: 1px black solid;
+        width: 50px;
+        height: 50px;background-color: red;}
+        #c14{
+            border: 1px black solid;
+            width: 50px;
+            height: 50px;background-color: blue;}
+            #c21{background-color: red;}
+            #c22{background-color: blue;}
+            #c23{background-color: red;}
+            #c24{background-color: blue;}
+            #c31{background-color: red;}
+            #c32{background-color: blue;}
+            #c33{background-color: red;}
+            #c34{background-color: blue;}
+            #c41{background-color: red;}
+            #c42{background-color: blue;}
+            #c43{background-color: red;}
+            #c44{background-color: blue;}
+                        
+
+ body{
+    margin: auto ;width: 50% ;
+}
+.h1{width: 100px
+    ;height: 100px;}
+    .h2{width: 100px
+        ;height: 100px;}
+        .left{float:left}
+        .right{float: right;}
+
+#c11:hover{background-color: darkred;}
+#c12:hover        {background-color: darkblue;}
+#c13:hover{background-color: darkred;}
+#c14:hover        {background-color: darkblue;}
+#c21:hover{background-color: darkred;}
+#c22:hover        {background-color: darkblue;}
+#c23:hover{background-color: darkred;}
+#c24:hover        {background-color: darkblue;}
+#c31:hover{background-color: darkred;}
+#c32:hover        {background-color: darkblue;}
+#c33:hover{background-color: darkred;}
+#c34:hover        {background-color: darkblue;}
+#c41:hover{background-color: darkred;}
+#c42:hover        {background-color: darkblue;}
+#c43:hover{background-color: darkred;}
+#c44:hover        {background-color: darkblue;}
